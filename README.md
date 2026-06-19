@@ -107,7 +107,7 @@ The ACO app automatically detects the required columns.
 
 ---
 
-# ⚙️ **How to Run the GA With Your File**
+#  **How to Run the GA With Your File**
 
 Inside `src/GA.ipynb`, you must load your dataset **before** running the Genetic Algorithm.  
 Use the following cell to load your Excel or CSV file:
