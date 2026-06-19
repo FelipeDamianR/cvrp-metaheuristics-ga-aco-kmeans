@@ -41,7 +41,7 @@ Features:
 - Tournament selection  
 - Elitism  
 - Crossover and mutation  
-- Optional K-means clustering for structured initialization  
+- K-Means clustering for structured initialization 
 
 ---
 
