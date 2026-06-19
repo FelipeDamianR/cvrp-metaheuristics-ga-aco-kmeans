@@ -1,12 +1,22 @@
-# **CVRP Metaheuristics: GA, ACO, and GA + K-means**
+# CVRP Metaheuristics: GA, ACO, and GA + K-Means
 
-This repository contains the implementation and analysis of several metaheuristic algorithms applied to the **Capacitated Vehicle Routing Problem (CVRP)**.  
-The work is based on the project documented in `Report_ACO_GA.pdf`.
+This repository contains the implementation and analysis of metaheuristic algorithms for the **Capacitated Vehicle Routing Problem (CVRP)**.
 
-The original objective was to build a hybrid GA–ACO algorithm.  
-Due to time constraints, the hybrid version was not completed; instead, the project includes **independent implementations** and a full comparative study.
+The project compares three approaches:
 
+- **Genetic Algorithm (GA)**
 
+- **Ant Colony Optimization (ACO)**
+
+- **Genetic Algorithm with K-Means initialization**
+
+The goal was to minimize total route distance while satisfying vehicle capacity constraints and ensuring that each customer is served exactly once.
+
+The GA + K-Means approach uses spatial clustering to generate more structured initial routes before the evolutionary search process. This allowed the algorithm to start from geographically coherent solutions and improve route quality compared with the standard GA implementation.
+
+An interactive **Shiny for Python** application was also developed to test ACO with custom datasets and visualize route construction.
+
+The full methodology, mathematical formulation, and results are documented in `Report_ACO_GA.pdf`.
 # **Problem Description**
 
 The project focuses on solving the **Capacitated Vehicle Routing Problem (CVRP)** using:
