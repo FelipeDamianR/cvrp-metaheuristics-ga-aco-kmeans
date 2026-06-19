@@ -1,4 +1,4 @@
-# 🐜 **CVRP Metaheuristics: GA, ACO, and GA + K-means**
+# **CVRP Metaheuristics: GA, ACO, and GA + K-means**
 
 This repository contains the implementation and analysis of several metaheuristic algorithms applied to the **Capacitated Vehicle Routing Problem (CVRP)**.  
 The work is based on the project documented in `Report_ACO_GA.pdf`.
@@ -85,7 +85,7 @@ An example file is included in the repository.
 
 ---
 
-# 🖥 **How to Use the ACO App With Your File**
+#  **How to Use the ACO App With Your File**
 
 1. Run `app_ACO.py`.  
 2. Use the upload button inside the interface.  
